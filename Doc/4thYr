@@ -1,0 +1,45 @@
+1. Introduction:
+DataCleaner Application 
+This application clean the data of device like
+All type of SMS (Inbox, Outbox, Draft)
+All type of Call (Incoming, Outgoing, Missed)
+Browser History
+Selected folder of sdcard 
+
+This app act as restore the device.
+
+
+2. Objective, Scope of Study/Research:
+Objective: Refresh the device by cleaning the SMS, call, browser history, sdcard etc.
+
+Scope of Study/Research:
+How to delete the browser history from the database directly through File system instead of content resolver.
+On some devices content resolver fail to delete the history through resolver. 
+But if we can access the device storage where this history is maintained and can wipe out that data. Then browser history can be done on all device.
+
+3. Why the Particular Topic or problem is Chosen:
+This topic short out a big problem and good for leaning & R&D.
+
+Problem Short-Out:
+Due to less memory device hangs, and we need to wipe out the data.
+So to wipe out the data with a single click there is no facility. But this app can do.
+
+Learning:
+1. Content Resolver
+2. Dealing with the memory.
+
+R&D:
+How to delete the browser history from the database directly through File system instead of content resolver.
+
+Best for R&D: How to delete the browser history from the database directly through File system instead of content resolver.
+4. What contribution would it make?
+This is short form of restoring the device.
+After the operations performed, device will be available with lot of memory space and speed will be high.
+
+5. Methodology:
+Agile Methodology
+
+DO YOUR SELF Diagram and details get from http://www.nahartechnologies.in/agile_software_development_methodology.html
+
+6. References:
+http://developer.android.com/index.html
